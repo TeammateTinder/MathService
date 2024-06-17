@@ -1,0 +1,112 @@
+# Ignore Visual Studio files
+.vs/
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nuget.cache
+packages/
+*.nupkg
+*.dll
+*.exe
+
+# Ignore user-specific files
+*.user
+*.suo
+*.cache
+*.log
+*.vscode/
+*.sln.docstates
+
+# Ignore project-specific files
+*.csproj.user
+*.csproj.vspscc
+
+# Ignore .NET Core and Visual Studio Code specific files
+.vscode/
+*.launch.json
+*.tasks.json
+*.vscode/
+
+# Ignore .NET Core runtime config
+*.runtimeconfig.json
+
+# Ignore Rider specific files
+.idea/
+
+# Ignore Resharper specific files
+_ReSharper*/
+
+# Ignore Windows folder attributes
+Desktop.ini
+Thumbs.db
+
+# Ignore macOS folder attributes
+.DS_Store
+
+# Ignore local settings files
+appsettings.json
+appsettings.Development.json
+
+# Ignore test results
+TestResults/
+
+# Ignore node modules
+node_modules/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore TypeScript build output
+*.js
+*.js.map
+
+# Ignore C# build and compile output
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.pidb
+*.user
+*.appx
+*.appxrecipe
+*.appxsym
+*.lastbuildstate
+publish/
+*.swp
+
+# Ignore RIA/Silverlight projects
+Generated_Code/
+
+# Ignore MSTest test Results
+[Tt]est[Rr]esult*/
+*.trx
+
+# Ignore dotCover code coverage result
+*.dotCover
+
+# Ignore Visual Studio profiler
+*.vsp
+
+# Ignore Fakes
+FakesAssemblies/
+
+# Ignore Telerik JustMock mocks
+*.jmlog
+*.exe.config
+
+# Ignore Auth0 integration files
+auth0-variables.env
+
+# Ignore composer.lock and vendor directory for PHP projects
+composer.lock
+/vendor
+
+# Avoid pushing unnecessary files
+.sass-cache/
+config.rb
+*.komodoproject
+.komodotools
+test.log
