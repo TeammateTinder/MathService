@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathService", "MathService\MathService.csproj", "{9890AD26-38E7-41E9-B462-7DBA50EBB970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathService.Tests", "MathService.Tests\MathService.Tests.csproj", "{AE5D07CC-5337-4BB7-8B52-C0E1363B355B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathService.Tests", "MathService.Tests\MathService.Tests.csproj", "{AE5D07CC-5337-4BB7-8B52-C0E1363B355B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServiceTests", "MathServiceTests\MathServiceTests.csproj", "{8945B431-1A12-4C63-AD7A-C1B7E1A34FCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AE5D07CC-5337-4BB7-8B52-C0E1363B355B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE5D07CC-5337-4BB7-8B52-C0E1363B355B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE5D07CC-5337-4BB7-8B52-C0E1363B355B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8945B431-1A12-4C63-AD7A-C1B7E1A34FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8945B431-1A12-4C63-AD7A-C1B7E1A34FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8945B431-1A12-4C63-AD7A-C1B7E1A34FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8945B431-1A12-4C63-AD7A-C1B7E1A34FCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
